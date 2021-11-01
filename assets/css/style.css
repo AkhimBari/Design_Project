@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+
+body {
+    max-width: 1440px;
+    font-family: "Roboto", sans-serif;
+    color: #0b0c17;
+}
+
+/*  Globale Einstellungen */
+
+/* Seite 1 one Start */
+
+header {
+    background: url(../img/ilustracion1.png) right top/cover no-repeat;
+    background-size: 50%;
+    height: 100%;
+}
+
+.elefant {
+    width: 5%;
+    position: fixed;
+}
+
+.head {
+    display: flex;
+    padding: 2%;
+}
+
+.head2 {
+    display: flex;
+}
+
+.people {
+    width: 50%;
+    margin-left: 35%;
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 50px, 0);
+    }
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding-left: 6%;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.überschrift {
+    line-height: 1.5rem;
+    padding: 10% 0 0% 5%;
+}
+
+.überschrift p:nth-of-type(1)::after {
+    content: "🚀";
+}
+
+.überschrift p:nth-of-type(2) {
+    color: #ff3571;
+    margin: 30% auto;
+    font-size: 1rem;
+}
+
+/* Seite 1 Ende */
+
+/* Seite 2 Start */
+
+.bild {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    line-height: 2em;
+    align-items: flex-start;
+    margin-bottom: 15%;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.one {
+    width: 20%;
+    line-height: 4vh; 
+    font-size: 3rem;
+}
+
+/* Seite 2 Ende */
+
+/* Seite 3 Start */
+
+.second {
+    font-size: 3rem;
+    margin: 15% 10% 0% 5%;
+}
+
+.img {
+    width: 5%;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.text div {
+    padding: 30px;
+    width: 40%;
+    font-size: 1.2rem;
+}
+
+.text div:nth-of-type(odd) {
+    margin-left: 3%;
+}
+
+.ready {
+    text-align: center;
+    margin: 10% auto;
+    font-size: 1.5rem;
+}
+
+/* Seite 3 Ende */
+
+/* Seite 4 Start */
+
+.seite div:nth-of-type(1) {
+    margin-left: auto;
+    background-image: url("../img/step01.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 10% 0;
+}
+
+.seite div:nth-of-type(1) {
+    padding-left: 60%;
+    line-height: 45px;
+}
+
+.seite div:nth-of-type(2) {
+    margin-left: auto;
+    background-image: url("../img/step02.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 10% 0;
+}
+
+.seite div:nth-of-type(2) {
+    padding-right: 60%;
+    line-height: 45px;
+}
+
+.seite div:nth-of-type(3) {
+    margin-left: auto;
+    background-image: url("../img/step03.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.seite div:nth-of-type(3) {
+    padding-left: 60%;
+    line-height: 45px;
+}
+
+.seite div:nth-of-type(4) {
+    margin-left: auto;
+    background-image: url("../img/step04.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 10% 0;
+}
+
+.seite div:nth-of-type(4) {
+    padding-right: 60%;
+    line-height: 45px;
+    margin-bottom: 10%
+}
+
+.seite h3 {
+    font-size: 2rem;
+    color: #dddddd;
+}
+
+/* Seite 4 Ende */
+
+/* Footer Start */
+
+.formular {
+    text-align: center;
+    line-height: 3.5em;
+}
+
+#email {
+    padding: 15px 140px;
+    border: none;
+    background-color: #dbd8d8;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(141, 138, 138);
+}
+
+#button {
+    background-color: #ff3571;
+    border: none;
+    padding: 10px 60px;
+    color: #FFF;
+    border-radius: 5%;
+}
+
+.designer img {
+    width: 2%;
+}
+
+#js {
+    display: none;
+}
+
+/* Footer End */
