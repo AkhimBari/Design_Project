@@ -24,8 +24,8 @@ header {
 }
 
 .elefant {
-    width: 5%;
-    position: fixed;
+    width: 60px;
+    position: fixed; 
 }
 
 .head {
